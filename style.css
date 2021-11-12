@@ -1,0 +1,70 @@
+
+body{
+  position: relative;
+  
+  width: 100vw;
+  background-image: url('../img/fundo\ site.jpg');
+  padding-top: 6vh;
+  background-size: cover;}
+
+#form{
+    display: inline-block;
+    width:100%;
+    height: 50%;
+    text-align: center;
+    
+   
+}
+h1{
+  font-size: 30px;
+  color: aliceblue;
+}
+#username{
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  margin: 4px;
+  transition: 1s;
+ 
+}
+#password{
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  margin: 4px;
+  transition: 1s;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#btn-submit{
+  width: 208px;
+  height: 36px;
+  border-radius: 15px;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  margin: 4px;
+  background-color:rgb(131, 57, 201);
+  color: aliceblue;
+  
+}
+#btn-submit:hover{
+  background-color:rgb(196, 163, 199) ;
+  
+}
+#txtValName{
+  position: relative;
+  right: 3%;
+  color: rgb(255, 0, 0);
+}
+#txtValPassword{
+  position: relative;
+  right: 3%;
+  color: rgb(255, 0, 0);
+}
+
+

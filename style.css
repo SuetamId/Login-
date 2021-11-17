@@ -3,7 +3,7 @@ body{
   position: relative;
   
   width: 100vw;
-  background-image: url('../img/fundo\ site.jpg');
+  background-image: url('./img/fundo\ site.jpg');
   padding-top: 6vh;
   background-size: cover;}
 
@@ -59,12 +59,12 @@ h1{
 #txtValName{
   position: relative;
   right: 3%;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }
 #txtValPassword{
   position: relative;
   right: 3%;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 
